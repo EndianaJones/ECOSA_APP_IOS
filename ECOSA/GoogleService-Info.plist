@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>955853435747-u0moug35hbgadoidnfq2n9bt6sin1h15.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.955853435747-u0moug35hbgadoidnfq2n9bt6sin1h15</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>955853435747-pnm1ot608g0reciq1nn08qrp05qr57f4.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDLiIItkadGeecPFX33m0Ofo9Ym6Tg8oVY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>955853435747</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gerve-endy.ECOSA</string>
+	<key>PROJECT_ID</key>
+	<string>test-ecosa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>test-ecosa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:955853435747:ios:de77e6e4da98f045359956</string>
+	<key>DATABASE_URL</key>
+	<string>https://test-ecosa.firebaseio.com</string>
+</dict>
+</plist>

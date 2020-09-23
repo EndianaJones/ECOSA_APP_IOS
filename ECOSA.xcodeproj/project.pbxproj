@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D03113B250407C800C50E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D03113A250407C800C50E5A /* AppDelegate.swift */; };
+		6D03113D250407C800C50E5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D03113C250407C800C50E5A /* SceneDelegate.swift */; };
+		6D03113F250407C800C50E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D03113E250407C800C50E5A /* ViewController.swift */; };
+		6D031142250407C800C50E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D031140250407C800C50E5A /* Main.storyboard */; };
+		6D031145250407C800C50E5A /* ECOSA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D031143250407C800C50E5A /* ECOSA.xcdatamodeld */; };
+		6D031147250407C900C50E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D031146250407C900C50E5A /* Assets.xcassets */; };
+		6D03114A250407C900C50E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D031148250407C900C50E5A /* LaunchScreen.storyboard */; };
+		6D0311522504099900C50E5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D0311512504099900C50E5A /* GoogleService-Info.plist */; };
+		6D4CAAC925068C6C00D3323E /* coreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CAAC825068C6C00D3323E /* coreDataController.swift */; };
+		6D4CAACB2509F21900D3323E /* dayStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CAACA2509F21900D3323E /* dayStruct.swift */; };
+		6D5F190925055E9C00A4AF7B /* weekStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F190825055E9C00A4AF7B /* weekStruct.swift */; };
+		6DF4A0DA250432E200A0AF2F /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4A0D9250432E200A0AF2F /* FirebaseController.swift */; };
+		E9B366ED24914CBC190CB63A /* Pods_ECOSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046552401C2A61D3695CD051 /* Pods_ECOSA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046552401C2A61D3695CD051 /* Pods_ECOSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECOSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0D9B8073F400EA87589C1C /* Pods-ECOSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECOSA.debug.xcconfig"; path = "Target Support Files/Pods-ECOSA/Pods-ECOSA.debug.xcconfig"; sourceTree = "<group>"; };
+		6D031137250407C800C50E5A /* ECOSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECOSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D03113A250407C800C50E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D03113C250407C800C50E5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6D03113E250407C800C50E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D031141250407C800C50E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D031144250407C800C50E5A /* ECOSA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ECOSA.xcdatamodel; sourceTree = "<group>"; };
+		6D031146250407C900C50E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D031149250407C900C50E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D03114B250407C900C50E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0311512504099900C50E5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6D4CAAC825068C6C00D3323E /* coreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataController.swift; sourceTree = "<group>"; };
+		6D4CAACA2509F21900D3323E /* dayStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayStruct.swift; sourceTree = "<group>"; };
+		6D5F190825055E9C00A4AF7B /* weekStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weekStruct.swift; sourceTree = "<group>"; };
+		6DF4A0D9250432E200A0AF2F /* FirebaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		AC6EADB385453081EA222BDE /* Pods-ECOSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECOSA.release.xcconfig"; path = "Target Support Files/Pods-ECOSA/Pods-ECOSA.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D031134250407C800C50E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B366ED24914CBC190CB63A /* Pods_ECOSA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059F7C22D78F4D85AE03FF32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046552401C2A61D3695CD051 /* Pods_ECOSA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D4690D0852A1BD0434BB407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0D9B8073F400EA87589C1C /* Pods-ECOSA.debug.xcconfig */,
+				AC6EADB385453081EA222BDE /* Pods-ECOSA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D03112E250407C800C50E5A = {
+			isa = PBXGroup;
+			children = (
+				6D031139250407C800C50E5A /* ECOSA */,
+				6D031138250407C800C50E5A /* Products */,
+				0D4690D0852A1BD0434BB407 /* Pods */,
+				059F7C22D78F4D85AE03FF32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D031138250407C800C50E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D031137250407C800C50E5A /* ECOSA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D031139250407C800C50E5A /* ECOSA */ = {
+			isa = PBXGroup;
+			children = (
+				6D03113A250407C800C50E5A /* AppDelegate.swift */,
+				6D03113C250407C800C50E5A /* SceneDelegate.swift */,
+				6D5F190725055E7100A4AF7B /* Model */,
+				6D5F190625055E4A00A4AF7B /* View */,
+				6D5F190525055E2400A4AF7B /* Controller */,
+				6D031146250407C900C50E5A /* Assets.xcassets */,
+				6D03114B250407C900C50E5A /* Info.plist */,
+				6D0311512504099900C50E5A /* GoogleService-Info.plist */,
+				6D031143250407C800C50E5A /* ECOSA.xcdatamodeld */,
+			);
+			path = ECOSA;
+			sourceTree = "<group>";
+		};
+		6D5F190525055E2400A4AF7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D03113E250407C800C50E5A /* ViewController.swift */,
+				6DF4A0D9250432E200A0AF2F /* FirebaseController.swift */,
+				6D4CAAC825068C6C00D3323E /* coreDataController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D5F190625055E4A00A4AF7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D031140250407C800C50E5A /* Main.storyboard */,
+				6D031148250407C900C50E5A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D5F190725055E7100A4AF7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D5F190825055E9C00A4AF7B /* weekStruct.swift */,
+				6D4CAACA2509F21900D3323E /* dayStruct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D031136250407C800C50E5A /* ECOSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D03114E250407C900C50E5A /* Build configuration list for PBXNativeTarget "ECOSA" */;
+			buildPhases = (
+				5907BBD406E324EC92CE606D /* [CP] Check Pods Manifest.lock */,
+				6D031133250407C800C50E5A /* Sources */,
+				6D031134250407C800C50E5A /* Frameworks */,
+				6D031135250407C800C50E5A /* Resources */,
+				E4B615C036EFDEFC502C3EF3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECOSA;
+			productName = ECOSA;
+			productReference = 6D031137250407C800C50E5A /* ECOSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D03112F250407C800C50E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Gerve-Endy Pluviose";
+				TargetAttributes = {
+					6D031136250407C800C50E5A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 6D031132250407C800C50E5A /* Build configuration list for PBXProject "ECOSA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D03112E250407C800C50E5A;
+			productRefGroup = 6D031138250407C800C50E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D031136250407C800C50E5A /* ECOSA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D031135250407C800C50E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D03114A250407C900C50E5A /* LaunchScreen.storyboard in Resources */,
+				6D0311522504099900C50E5A /* GoogleService-Info.plist in Resources */,
+				6D031147250407C900C50E5A /* Assets.xcassets in Resources */,
+				6D031142250407C800C50E5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5907BBD406E324EC92CE606D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ECOSA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B615C036EFDEFC502C3EF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ECOSA/Pods-ECOSA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ECOSA/Pods-ECOSA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ECOSA/Pods-ECOSA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D031133250407C800C50E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5F190925055E9C00A4AF7B /* weekStruct.swift in Sources */,
+				6DF4A0DA250432E200A0AF2F /* FirebaseController.swift in Sources */,
+				6D03113F250407C800C50E5A /* ViewController.swift in Sources */,
+				6D031145250407C800C50E5A /* ECOSA.xcdatamodeld in Sources */,
+				6D03113B250407C800C50E5A /* AppDelegate.swift in Sources */,
+				6D4CAACB2509F21900D3323E /* dayStruct.swift in Sources */,
+				6D4CAAC925068C6C00D3323E /* coreDataController.swift in Sources */,
+				6D03113D250407C800C50E5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D031140250407C800C50E5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D031141250407C800C50E5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D031148250407C900C50E5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D031149250407C900C50E5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D03114C250407C900C50E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D03114D250407C900C50E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D03114F250407C900C50E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0D9B8073F400EA87589C1C /* Pods-ECOSA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ECOSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gerve-endy.ECOSA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D031150250407C900C50E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6EADB385453081EA222BDE /* Pods-ECOSA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ECOSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gerve-endy.ECOSA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D031132250407C800C50E5A /* Build configuration list for PBXProject "ECOSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D03114C250407C900C50E5A /* Debug */,
+				6D03114D250407C900C50E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D03114E250407C900C50E5A /* Build configuration list for PBXNativeTarget "ECOSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D03114F250407C900C50E5A /* Debug */,
+				6D031150250407C900C50E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D031143250407C800C50E5A /* ECOSA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D031144250407C800C50E5A /* ECOSA.xcdatamodel */,
+			);
+			currentVersion = 6D031144250407C800C50E5A /* ECOSA.xcdatamodel */;
+			path = ECOSA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D03112F250407C800C50E5A /* Project object */;
+}
