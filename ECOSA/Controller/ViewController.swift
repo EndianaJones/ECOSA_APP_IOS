@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         //print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
         
        //db.getWeekENG()
-        db.AllWeek()
+        db.AllDays()
         
         //db.getWeekFR()
       
