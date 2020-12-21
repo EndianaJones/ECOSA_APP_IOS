@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         
        //db.getWeekENG()
         db.AllDays()
-        
+        //cd.loadDayData()
         //db.getWeekFR()
       
       //  db.getWeekSPH()

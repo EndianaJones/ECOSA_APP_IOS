@@ -9,10 +9,11 @@
 import Foundation
 
 struct Day_Struct {
-    var D_Date: Date
+    var D_Date: Date?
     var D_Day: String
     var D_Text: String
     var D_Title: String
-    var D_Verse: String
+    var D_Verse: NSArray?
+    var D_LNG: String
     
 }

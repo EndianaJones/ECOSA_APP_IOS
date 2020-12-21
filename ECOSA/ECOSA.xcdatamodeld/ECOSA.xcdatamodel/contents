@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
     <entity name="Day" representedClassName=".Day" syncable="YES" codeGenerationType="class">
         <attribute name="d_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="d_day" optional="YES" attributeType="String"/>
+        <attribute name="d_lng" optional="YES" attributeType="String"/>
         <attribute name="d_status" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
         <attribute name="d_text" optional="YES" attributeType="String"/>
         <attribute name="d_title" optional="YES" attributeType="String"/>
-        <attribute name="d_verse" optional="YES" attributeType="String"/>
     </entity>
     <entity name="Week" representedClassName=".Week" syncable="YES" codeGenerationType="class">
         <attribute name="language" optional="YES" attributeType="String"/>

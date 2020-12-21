@@ -167,13 +167,12 @@ class FirebaseController{
                             
                             let dictionary = document.data()
 
-                            print(dictionary)
+                            //print(dictionary)
                             
-                            //let weeekStruct = Week_Struct(lesson_num: dictionary["LESSON_NUM"] as! Int16, language: (dictionary["LNG"] as! String), wk_exp_date: self.getTimeFromStamp(time: dictionary["WK_EXP_DATE"] as! Timestamp), wk_start_date: self.getTimeFromStamp(time: dictionary["WK_START_DATE"] as! Timestamp), wk_title: (dictionary["WK_TITTLE"] as? String)!, wk_verse: (dictionary["WK_VERSE"] as? String)!, wk_verse_text: (dictionary["WK_VERSE_TEXT"] as? String)!)
-                            
+                            let dayStructENG = Day_Struct(D_Date: self.getTimeFromStamp(time: dictionary["D_DATE"] as! Timestamp) , D_Day: dictionary["D_DAY"] as! String, D_Text: dictionary["D_TEXT"] as! String, D_Title: dictionary["D_TITLE"] as! String, D_Verse: dictionary["D_VERSE"] as! NSArray, D_LNG: dictionary["LNG"] as! String)
                              
                             
-                            //coreDataAccess.checkWeekData(data: weeekStruct)
+                            coreDataAccess.checkDayData(data: dayStructENG)
                             
                             semaphore.signal()
 
@@ -196,16 +195,13 @@ class FirebaseController{
                          for document in querySnapshot!.documents {
                              
                              let dictionary = document.data()
-                            print(dictionary)
+                            //print(dictionary)
 
                            
                              
-                           //let weeekStructFr = Week_Struct(lesson_num: dictionary["LESSON_NUM"] as! Int16, language: (dictionary["LNG"] as! String), wk_exp_date: self.getTimeFromStamp(time: dictionary["WK_EXP_DATE"] as! Timestamp), wk_start_date: self.getTimeFromStamp(time: dictionary["WK_START_DATE"] as! Timestamp), wk_title: (dictionary["WK_TITLE"] as? String)!, wk_verse: (dictionary["WK_VERSE"] as? String)!, wk_verse_text: (dictionary["WK_VERSE_TEXT"] as? String)!)
+                            let dayStructFR = Day_Struct(D_Date: self.getTimeFromStamp(time: dictionary["D_DATE"] as! Timestamp) , D_Day: dictionary["D_DAY"] as! String, D_Text: dictionary["D_TEXT"] as! String, D_Title: dictionary["D_TITLE"] as! String, D_Verse: dictionary["D_VERSE"] as? NSArray, D_LNG: dictionary["LNG"] as! String)
                            
-                           
-                            // let weeekStructFr = Week_Struct(lesson_num: dictionary["LESSON_NUM"] as! Int16, language: (dictionary["LNG"] as! String), wk_exp_date: nil, wk_start_date: nil, wk_title: (dictionary["WK_TITTLE"] as? String)!, wk_verse: (dictionary["WK_VERSE"] as? String)!, wk_verse_text: (dictionary["WK_VERSE_TEXT"] as? String)!)
-                           
-                            //coreDataAccess.checkWeekData(data: weeekStructFr)
+                            coreDataAccess.checkDayData(data: dayStructFR)
                              
                            
                             semaphore.signal()
@@ -229,14 +225,13 @@ class FirebaseController{
                     for document in querySnapshot!.documents {
                         
                         let dictionary = document.data()
-                        print(dictionary)
+                        //print(dictionary)
 
                       
-                        
-                        //let weeekStructSPN = Week_Struct(lesson_num: dictionary["LESSON_NUM"] as! Int16, language: (dictionary["LNG"] as! String), wk_exp_date: self.getTimeFromStamp(time: dictionary["WK_EXP_DATE"] as! Timestamp), wk_start_date: self.getTimeFromStamp(time: dictionary["WK_START_DATE"] as! Timestamp), wk_title: (dictionary["WK_TITLE"] as? String)!, wk_verse: (dictionary["WK_VERSE"] as? String)!, wk_verse_text: (dictionary["WK_VERSE_TEXT"] as? String)!)
+                        let dayStructSPH = Day_Struct(D_Date: self.getTimeFromStamp(time: dictionary["D_DATE"] as! Timestamp) , D_Day: dictionary["D_DAY"] as! String, D_Text: dictionary["D_TEXT"] as! String, D_Title: dictionary["D_TITLE"] as! String, D_Verse: dictionary["D_VERSE"] as! NSArray, D_LNG: dictionary["LNG"] as! String)
                       
                   
-                       //coreDataAccess.checkWeekData(data: weeekStructSPN)
+                       coreDataAccess.checkDayData(data: dayStructSPH)
                         
 
                         

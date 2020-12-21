@@ -114,7 +114,76 @@ class coreDataController: UIViewController {
     }
     
     
+//------------------------------ DAY DATA ----------------------------
     
+    //UPDATE DAY DATA IN LOCAL DB
+    func updateDayData(data: Day_Struct, idx: Int) {
+        
+        DayArray[idx].d_date = data.D_Date
+        DayArray[idx].d_day = data.D_Day
+        DayArray[idx].d_lng = data.D_LNG
+        DayArray[idx].d_text = data.D_Text
+        DayArray[idx].d_title = data.D_Title
+        
+        
+    
+        //print(WeekArray[0].wk_verse_text!)
+        self.save_item()
+        
+    }
+    
+    //ADD DAY DATA IN LOCAL DB
+    
+    func addDayData(data: Day_Struct ) {
+        print("Adding Day Data")
+        let new_day = Day(context:self.context)
+        new_day.d_title = data.D_Title
+        new_day.d_lng = data.D_LNG
+        new_day.d_date = data.D_Date
+        new_day.d_text = data.D_Text
+        new_day.d_status = false
+        new_day.d_day = data.D_Day
+        //NEED TO ADD DAY VERSE TO PROPER TABLE
+        
+        self.save_item()
+        
+        
+    }
+    
+    // FETCH THE DATA FROM LOCAL DB
+    func loadDayData(){
+        let request: NSFetchRequest<Day> = Day.fetchRequest()
+        do{
+            DayArray = try context.fetch(request)
+        } catch {
+            print("Error Fetching Data \(error)")
+        }
+        
+        print( "THIS IS IT \n \(DayArray)")
+    }
+    
+    func checkDayData(data: Day_Struct ) {
+        //Fetch Data
+        self.loadDayData()
+       //print(data)
+        var idx: Int?
+        for (index, element) in DayArray.enumerated(){
+            if element.d_lng == data.D_LNG && element.d_day == data.D_Day {
+                idx = index
+                
+                
+            }
+        }
+        
+        if idx == nil{
+           self.addDayData(data: data)
+        }else{
+           self.updateDayData(data: data, idx: idx ?? 0)
+        }
+        
+        
+        
+    }
     
     
 }
