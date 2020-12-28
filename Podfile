@@ -9,5 +9,6 @@ target 'ECOSA' do
   pod 'Firebase/Database'
   pod 'Firebase/Firestore'
   pod 'FirebaseFirestoreSwift'
+  pod "MBCircularProgressBar"
 
 end

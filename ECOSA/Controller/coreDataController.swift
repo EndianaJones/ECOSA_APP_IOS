@@ -113,6 +113,10 @@ class coreDataController: UIViewController {
         
     }
     
+    func getWeek()->[Week]{
+        self.loadWeekData()
+        return WeekArray
+    }
     
 //------------------------------ DAY DATA ----------------------------
     

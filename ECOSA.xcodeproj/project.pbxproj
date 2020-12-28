@@ -15,8 +15,14 @@
 		6D031147250407C900C50E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D031146250407C900C50E5A /* Assets.xcassets */; };
 		6D03114A250407C900C50E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D031148250407C900C50E5A /* LaunchScreen.storyboard */; };
 		6D0311522504099900C50E5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D0311512504099900C50E5A /* GoogleService-Info.plist */; };
+		6D106FC325919BFC00345272 /* OpenSansCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D106FC125919BFC00345272 /* OpenSansCondensed-Light.ttf */; };
+		6D106FC425919BFC00345272 /* OpenSansCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D106FC225919BFC00345272 /* OpenSansCondensed-LightItalic.ttf */; };
+		6D106FC825919C4C00345272 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D106FC625919C4C00345272 /* Poppins-Regular.ttf */; };
+		6D106FC925919C4C00345272 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D106FC725919C4C00345272 /* Poppins-Light.ttf */; };
 		6D4CAAC925068C6C00D3323E /* coreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CAAC825068C6C00D3323E /* coreDataController.swift */; };
 		6D4CAACB2509F21900D3323E /* dayStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CAACA2509F21900D3323E /* dayStruct.swift */; };
+		6D523CF325998991008259E6 /* YoutubeContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D523CF225998991008259E6 /* YoutubeContoller.swift */; };
+		6D54DAB42596934600EF4854 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D54DAB32596934600EF4854 /* Poppins-Bold.ttf */; };
 		6D5F190925055E9C00A4AF7B /* weekStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F190825055E9C00A4AF7B /* weekStruct.swift */; };
 		6DF4A0DA250432E200A0AF2F /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4A0D9250432E200A0AF2F /* FirebaseController.swift */; };
 		E9B366ED24914CBC190CB63A /* Pods_ECOSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046552401C2A61D3695CD051 /* Pods_ECOSA.framework */; };
@@ -35,8 +41,14 @@
 		6D031149250407C900C50E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D03114B250407C900C50E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D0311512504099900C50E5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6D106FC125919BFC00345272 /* OpenSansCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-Light.ttf"; sourceTree = "<group>"; };
+		6D106FC225919BFC00345272 /* OpenSansCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		6D106FC625919C4C00345272 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		6D106FC725919C4C00345272 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		6D4CAAC825068C6C00D3323E /* coreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataController.swift; sourceTree = "<group>"; };
 		6D4CAACA2509F21900D3323E /* dayStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayStruct.swift; sourceTree = "<group>"; };
+		6D523CF225998991008259E6 /* YoutubeContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeContoller.swift; sourceTree = "<group>"; };
+		6D54DAB32596934600EF4854 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		6D5F190825055E9C00A4AF7B /* weekStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weekStruct.swift; sourceTree = "<group>"; };
 		6DF4A0D9250432E200A0AF2F /* FirebaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
 		AC6EADB385453081EA222BDE /* Pods-ECOSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECOSA.release.xcconfig"; path = "Target Support Files/Pods-ECOSA/Pods-ECOSA.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +104,7 @@
 		6D031139250407C800C50E5A /* ECOSA */ = {
 			isa = PBXGroup;
 			children = (
+				6D106FBF2591289900345272 /* Fonts */,
 				6D03113A250407C800C50E5A /* AppDelegate.swift */,
 				6D03113C250407C800C50E5A /* SceneDelegate.swift */,
 				6D5F190725055E7100A4AF7B /* Model */,
@@ -105,12 +118,25 @@
 			path = ECOSA;
 			sourceTree = "<group>";
 		};
+		6D106FBF2591289900345272 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6D54DAB32596934600EF4854 /* Poppins-Bold.ttf */,
+				6D106FC725919C4C00345272 /* Poppins-Light.ttf */,
+				6D106FC625919C4C00345272 /* Poppins-Regular.ttf */,
+				6D106FC125919BFC00345272 /* OpenSansCondensed-Light.ttf */,
+				6D106FC225919BFC00345272 /* OpenSansCondensed-LightItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		6D5F190525055E2400A4AF7B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				6D03113E250407C800C50E5A /* ViewController.swift */,
 				6DF4A0D9250432E200A0AF2F /* FirebaseController.swift */,
 				6D4CAAC825068C6C00D3323E /* coreDataController.swift */,
+				6D523CF225998991008259E6 /* YoutubeContoller.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,9 +220,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D03114A250407C900C50E5A /* LaunchScreen.storyboard in Resources */,
+				6D54DAB42596934600EF4854 /* Poppins-Bold.ttf in Resources */,
 				6D0311522504099900C50E5A /* GoogleService-Info.plist in Resources */,
+				6D106FC825919C4C00345272 /* Poppins-Regular.ttf in Resources */,
+				6D106FC925919C4C00345272 /* Poppins-Light.ttf in Resources */,
 				6D031147250407C900C50E5A /* Assets.xcassets in Resources */,
 				6D031142250407C800C50E5A /* Main.storyboard in Resources */,
+				6D106FC425919BFC00345272 /* OpenSansCondensed-LightItalic.ttf in Resources */,
+				6D106FC325919BFC00345272 /* OpenSansCondensed-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +284,7 @@
 				6DF4A0DA250432E200A0AF2F /* FirebaseController.swift in Sources */,
 				6D03113F250407C800C50E5A /* ViewController.swift in Sources */,
 				6D031145250407C800C50E5A /* ECOSA.xcdatamodeld in Sources */,
+				6D523CF325998991008259E6 /* YoutubeContoller.swift in Sources */,
 				6D03113B250407C800C50E5A /* AppDelegate.swift in Sources */,
 				6D4CAACB2509F21900D3323E /* dayStruct.swift in Sources */,
 				6D4CAAC925068C6C00D3323E /* coreDataController.swift in Sources */,
