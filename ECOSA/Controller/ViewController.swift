@@ -40,7 +40,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         let db = FirebaseController()
         let cd = coreDataController()
-        db.AllWeek()
+        let youtube = YoutubeContoller()
+        
+        youtube.getFeedVideo()
+        //db.AllWeek()
         VOTW_card.layer.cornerRadius = 15
         VOTW_card.layer.shadowRadius = 15
         VOTW_card.layer.shadowOpacity = 0.2
