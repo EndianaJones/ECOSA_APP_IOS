@@ -293,6 +293,7 @@ PODS:
   - nanopb/decode (1.30905.0)
   - nanopb/encode (1.30905.0)
   - PromisesObjC (1.2.9)
+  - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
@@ -300,6 +301,7 @@ DEPENDENCIES:
   - Firebase/Firestore
   - FirebaseFirestoreSwift
   - MBCircularProgressBar
+  - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   trunk:
@@ -321,6 +323,7 @@ SPEC REPOS:
     - MBCircularProgressBar
     - nanopb
     - PromisesObjC
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
@@ -341,7 +344,8 @@ SPEC CHECKSUMS:
   MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 70651dc87ddc7fab3135ecbb027bd2a0d574a3b9
+PODFILE CHECKSUM: 64426e32d65feda170ffac6b4e99bdf35bac2b06
 
 COCOAPODS: 1.9.3
