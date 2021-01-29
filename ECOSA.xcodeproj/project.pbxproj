@@ -22,9 +22,11 @@
 		6D4CAAC925068C6C00D3323E /* coreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CAAC825068C6C00D3323E /* coreDataController.swift */; };
 		6D4CAACB2509F21900D3323E /* dayStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CAACA2509F21900D3323E /* dayStruct.swift */; };
 		6D523CF325998991008259E6 /* YoutubeContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D523CF225998991008259E6 /* YoutubeContoller.swift */; };
+		6D52863725C2876F00387382 /* youtubeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D52863625C2876F00387382 /* youtubeData.swift */; };
 		6D54DAB42596934600EF4854 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D54DAB32596934600EF4854 /* Poppins-Bold.ttf */; };
 		6D5F190925055E9C00A4AF7B /* weekStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F190825055E9C00A4AF7B /* weekStruct.swift */; };
 		6D6AD1A5259D1F00004F8845 /* videoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6AD1A4259D1F00004F8845 /* videoStruct.swift */; };
+		6D91110025C45E8E007E464E /* LessonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9110FF25C45E8E007E464E /* LessonTableViewController.swift */; };
 		6DF4A0DA250432E200A0AF2F /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4A0D9250432E200A0AF2F /* FirebaseController.swift */; };
 		E9B366ED24914CBC190CB63A /* Pods_ECOSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046552401C2A61D3695CD051 /* Pods_ECOSA.framework */; };
 /* End PBXBuildFile section */
@@ -49,9 +51,11 @@
 		6D4CAAC825068C6C00D3323E /* coreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataController.swift; sourceTree = "<group>"; };
 		6D4CAACA2509F21900D3323E /* dayStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayStruct.swift; sourceTree = "<group>"; };
 		6D523CF225998991008259E6 /* YoutubeContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeContoller.swift; sourceTree = "<group>"; };
+		6D52863625C2876F00387382 /* youtubeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtubeData.swift; sourceTree = "<group>"; };
 		6D54DAB32596934600EF4854 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		6D5F190825055E9C00A4AF7B /* weekStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weekStruct.swift; sourceTree = "<group>"; };
 		6D6AD1A4259D1F00004F8845 /* videoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoStruct.swift; sourceTree = "<group>"; };
+		6D9110FF25C45E8E007E464E /* LessonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTableViewController.swift; sourceTree = "<group>"; };
 		6DF4A0D9250432E200A0AF2F /* FirebaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
 		AC6EADB385453081EA222BDE /* Pods-ECOSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECOSA.release.xcconfig"; path = "Target Support Files/Pods-ECOSA/Pods-ECOSA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +143,7 @@
 				6DF4A0D9250432E200A0AF2F /* FirebaseController.swift */,
 				6D4CAAC825068C6C00D3323E /* coreDataController.swift */,
 				6D523CF225998991008259E6 /* YoutubeContoller.swift */,
+				6D9110FF25C45E8E007E464E /* LessonTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				6D5F190825055E9C00A4AF7B /* weekStruct.swift */,
 				6D4CAACA2509F21900D3323E /* dayStruct.swift */,
 				6D6AD1A4259D1F00004F8845 /* videoStruct.swift */,
+				6D52863625C2876F00387382 /* youtubeData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,11 +294,13 @@
 				6D6AD1A5259D1F00004F8845 /* videoStruct.swift in Sources */,
 				6D03113F250407C800C50E5A /* ViewController.swift in Sources */,
 				6D031145250407C800C50E5A /* ECOSA.xcdatamodeld in Sources */,
+				6D91110025C45E8E007E464E /* LessonTableViewController.swift in Sources */,
 				6D523CF325998991008259E6 /* YoutubeContoller.swift in Sources */,
 				6D03113B250407C800C50E5A /* AppDelegate.swift in Sources */,
 				6D4CAACB2509F21900D3323E /* dayStruct.swift in Sources */,
 				6D4CAAC925068C6C00D3323E /* coreDataController.swift in Sources */,
 				6D03113D250407C800C50E5A /* SceneDelegate.swift in Sources */,
+				6D52863725C2876F00387382 /* youtubeData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

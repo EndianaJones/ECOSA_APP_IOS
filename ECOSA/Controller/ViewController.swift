@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var VOTW_ref: UILabel!
     
+    @IBOutlet var Lesson_Thumbnail: UIImageView!
     @IBOutlet weak var progressViewBar: MBCircularProgressBarView!
     @IBOutlet var weeklyProcess: UILabel!
     @IBOutlet var streak: UILabel!
@@ -35,6 +36,29 @@ class ViewController: UIViewController {
     @IBOutlet var lesson_title_text: UILabel!
     
     @IBOutlet var Image_card: UIImageView!
+    
+    //button
+    @IBOutlet var lesson_but: UIView!
+    @IBOutlet var video_but: UIView!
+    @IBOutlet var podcast_but: UIView!
+    
+    @IBOutlet var setting_but: UIView!
+    
+    func setImage(from url: String) {
+        guard let imageURL = URL(string: url) else { return }
+
+            // just not to cause a deadlock in UI!
+        DispatchQueue.global().async {
+            guard let imageData = try? Data(contentsOf: imageURL) else { return }
+
+            let image = UIImage(data: imageData)
+            DispatchQueue.main.async {
+                self.Lesson_Thumbnail.image = image
+            }
+        }
+    }
+    
+    
     override func viewDidLoad() {
        
         // Do any additional setup after loading the view.
@@ -42,21 +66,35 @@ class ViewController: UIViewController {
         let cd = coreDataController()
         let youtube = YoutubeContoller()
         
+        
+        
         youtube.getFeedVideo()
-        //db.AllWeek()
+        db.AllWeek()
+        
+        //verse of the day
         VOTW_card.layer.cornerRadius = 15
         VOTW_card.layer.shadowRadius = 15
         VOTW_card.layer.shadowOpacity = 0.2
         
+        //verse of the day
+        lesson_but.layer.cornerRadius = 15
+        video_but.layer.cornerRadius = 15
+        setting_but.layer.cornerRadius = 15
+        podcast_but.layer.cornerRadius = 15
+        
         Image_card.layer.cornerRadius = 15
         Image_card.layer.shadowRadius = 15
         Image_card.layer.shadowOpacity = 0.2
+        Lesson_Thumbnail.layer.cornerRadius = 15
         
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) { // Change
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10.5) { // Change
             //super.viewDidLoad()
             
+            let url =  VideoArray[0].thumbnail
+            self.setImage (from: url )
+           
             
+            //self.Lesson_Thumbnail
             self.WeekArray = cd.getWeek()
             print("Hello World \n")
             print(self.WeekArray.count)
@@ -109,6 +147,7 @@ class ViewController: UIViewController {
             self.progressViewBar.value = 3
         }
     }
+    
 
 
 }

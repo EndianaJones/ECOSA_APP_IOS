@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Podcast 1.png",
+      "filename" : "setting.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Podcast 1@2x.png",
+      "filename" : "setting@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Podcast 1@3x.png",
+      "filename" : "setting@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

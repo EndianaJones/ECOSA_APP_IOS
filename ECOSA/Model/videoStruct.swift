@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Video_Struct {
+public struct Video_Struct {
     var videoId :String
     var title :String
     var thumbnail : String

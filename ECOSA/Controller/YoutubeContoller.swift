@@ -10,13 +10,14 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
+public var VideoArray = [Video_Struct]()
+
 class YoutubeContoller {
     let API_key = "AIzaSyAPhnhhICCagw6gEPIa6FcxIADglxjFaBo"
     let Playlist_key = "UUCtp4UbQIrxgu41T5Hc5bug"
     let API_URL = "https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=5&playlistId=UUCtp4UbQIrxgu41T5Hc5bug&key=AIzaSyAPhnhhICCagw6gEPIa6FcxIADglxjFaBo"
     
     
-    var VideoArray = [Video_Struct]()
     
     func getFeedVideo(){
         
@@ -46,10 +47,12 @@ class YoutubeContoller {
                         
                         var VdeoStruct = Video_Struct(videoId: youVideoId, title: youTitle, thumbnail: youThumbnail, published: youPublished)
                         
-                        self.VideoArray.append(VdeoStruct)
+                        VideoArray.append(VdeoStruct)
+                        
                         
                         
                     }
+                    
                 }
                
                 

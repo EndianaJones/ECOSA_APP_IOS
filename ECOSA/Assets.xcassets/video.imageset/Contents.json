@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "VOTW_BACK.png",
+      "filename" : "video.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "VOTW_BACK@2x.png",
+      "filename" : "video@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "VOTW_BACK@3x.png",
+      "filename" : "video@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
