@@ -15,8 +15,9 @@ import CoreData
 import UIKit
 
 
-
+public var DayArray = [Day]()
 class coreDataController: UIViewController {
+    
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     var WeekArray = [Week]()
@@ -163,13 +164,30 @@ class coreDataController: UIViewController {
             print("Error Fetching Data \(error)")
         }
         
-        print( "THIS IS IT \n \(DayArray)")
+       // print( "THIS IS IT \n \(DayArray)")
+    }
+    
+    func getFrenchDay() -> [Day] {
+        print("We work")
+        self.loadDayData()
+        var frArray:[Day] = []
+        
+        for (index, element) in DayArray.enumerated(){
+            if element.d_lng == "FR"  {
+                frArray.append(element)
+                
+            }
+        }
+        
+        //print(frArray)
+        return frArray
+        
     }
     
     func checkDayData(data: Day_Struct ) {
         //Fetch Data
         self.loadDayData()
-       //print(data)
+      // print(data)
         var idx: Int?
         for (index, element) in DayArray.enumerated(){
             if element.d_lng == data.D_LNG && element.d_day == data.D_Day {
@@ -179,6 +197,7 @@ class coreDataController: UIViewController {
             }
         }
         
+        //print("INDEX IS: \(idx!)")
         if idx == nil{
            self.addDayData(data: data)
         }else{

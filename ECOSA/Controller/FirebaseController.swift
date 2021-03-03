@@ -135,7 +135,7 @@ class FirebaseController{
                 print("Error getting documents: \(err)")
             } else {
                 for document in querySnapshot!.documents {
-                    print("\(document.documentID) => \(document.data()) \n")
+                   // print("\(document.documentID) => \(document.data()) \n")
                     
                     
                     

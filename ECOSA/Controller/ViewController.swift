@@ -11,7 +11,9 @@ import CoreData
 import MBCircularProgressBar
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
+    
+    
     @IBOutlet var VOTW_card: UIView!
     @IBOutlet var VOTW_test: UILabel!
     
@@ -70,6 +72,7 @@ class ViewController: UIViewController {
         
         youtube.getFeedVideo()
         db.AllWeek()
+        db.AllDays()
         
         //verse of the day
         VOTW_card.layer.cornerRadius = 15
@@ -87,7 +90,7 @@ class ViewController: UIViewController {
         Image_card.layer.shadowOpacity = 0.2
         Lesson_Thumbnail.layer.cornerRadius = 15
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 10.5) { // Change
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) { // Change
             //super.viewDidLoad()
             
             let url =  VideoArray[0].thumbnail
@@ -96,6 +99,8 @@ class ViewController: UIViewController {
             
             //self.Lesson_Thumbnail
             self.WeekArray = cd.getWeek()
+            cd.loadDayData()
+            
             print("Hello World \n")
             print(self.WeekArray.count)
             self.VOTW_test.text = "VERSE OF THE WEEK"
